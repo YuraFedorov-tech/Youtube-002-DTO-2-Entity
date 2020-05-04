@@ -12,8 +12,9 @@ import java.util.List;
 public class PersonDto {
     private Long id;
     private String email;
-    private  String password;
-    private List<String> roles;
+    private String password;
+    List<String> roles;
+    List<String> images;
 
     public PersonDto(Long id, String email, String password) {
         this.id = id;
@@ -51,5 +52,13 @@ public class PersonDto {
 
     public void setRoles(List<String> roles) {
         this.roles = roles;
+    }
+
+    public List<String> getImages() {
+        return images;
+    }
+
+    public void setImages(List<String> images) {
+        this.images = images;
     }
 }

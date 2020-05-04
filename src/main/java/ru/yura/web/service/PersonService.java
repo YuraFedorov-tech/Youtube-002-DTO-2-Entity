@@ -9,6 +9,8 @@ package ru.yura.web.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import ru.yura.web.dao.PersonDtoDao;
+import ru.yura.web.dto.PersonDto;
 import ru.yura.web.model.Image;
 import ru.yura.web.model.Person;
 import ru.yura.web.model.Role;
@@ -22,21 +24,23 @@ import java.util.Set;
 
 @Service
 public class PersonService {
+    final private PersonDtoDao personDtoDao;
     final private ImageService imageService;
     final private PersonRepositiry personRepositiry;
     final private RoleService roleService;
 
-    public PersonService(ImageService imageService, PersonRepositiry personRepositiry, RoleService roleService) {
+    public PersonService(ImageService imageService, PersonRepositiry personRepositiry, RoleService roleService, PersonDtoDao personDtoDao) {
         this.imageService = imageService;
         this.personRepositiry = personRepositiry;
         this.roleService = roleService;
+        this.personDtoDao = personDtoDao;
     }
 
     @Transactional
     public void save(Person person, List<String> roles, List<String> images) {
-     if(images.size()==2){
-         int t=0;
-     }
+        if (images.size() == 2) {
+            int t = 0;
+        }
         List<Role> roles1 = new ArrayList<>();
         for (String role : roles)
             roles1.add(roleService.findByRole(role));
@@ -60,4 +64,7 @@ public class PersonService {
         return personRepositiry.findPersonById(id);
     }
 
+    public List<PersonDto> getAllDto() {
+        return  personDtoDao.getAllDto();
+    }
 }

@@ -61,6 +61,14 @@
     </expand>
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1bS1XlcLIVQKqdajKUhQNM4E0y8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -76,7 +84,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../03/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -112,22 +126,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:youtube@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:youtube@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@27f96cc9" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:youtube@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@1a9548c5" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -146,6 +145,9 @@
       <updated>1588610722645</updated>
       <workItem from="1588610731459" duration="30000" />
       <workItem from="1588610774092" duration="1534000" />
+      <workItem from="1588612404567" duration="540000" />
+      <workItem from="1588618198357" duration="1436000" />
+      <workItem from="1588622763783" duration="2391000" />
     </task>
     <servers />
   </component>
@@ -157,38 +159,46 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1588611786880" />
-    <state width="957" height="215" key="GridCell.Tab.0.bottom" timestamp="1588612502498">
+    <state x="525" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1588623802337">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="215" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588612502498" />
-    <state width="957" height="215" key="GridCell.Tab.0.center" timestamp="1588612502498">
+    <state x="525" y="150" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1588623802337" />
+    <state x="500" y="189" key="FileChooserDialogImpl" timestamp="1588612943083">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="215" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588612502498" />
-    <state width="957" height="215" key="GridCell.Tab.0.left" timestamp="1588612502498">
+    <state x="500" y="189" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1588612943083" />
+    <state width="1397" height="427" key="GridCell.Tab.0.bottom" timestamp="1588624834940">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="215" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588612502498" />
-    <state width="957" height="215" key="GridCell.Tab.0.right" timestamp="1588612502498">
+    <state width="1397" height="427" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588624834940" />
+    <state width="1397" height="427" key="GridCell.Tab.0.center" timestamp="1588624834940">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="215" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588612502498" />
-    <state width="1397" height="266" key="GridCell.Tab.1.bottom" timestamp="1588612027303">
+    <state width="1397" height="427" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588624834940" />
+    <state width="1397" height="427" key="GridCell.Tab.0.left" timestamp="1588624834940">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="266" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588612027303" />
-    <state width="1397" height="266" key="GridCell.Tab.1.center" timestamp="1588612027303">
+    <state width="1397" height="427" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588624834940" />
+    <state width="1397" height="427" key="GridCell.Tab.0.right" timestamp="1588624834940">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="266" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1588612027303" />
-    <state width="1397" height="266" key="GridCell.Tab.1.left" timestamp="1588612027303">
+    <state width="1397" height="427" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588624834940" />
+    <state width="1397" height="427" key="GridCell.Tab.1.bottom" timestamp="1588624834941">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="266" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1588612027303" />
-    <state width="1397" height="266" key="GridCell.Tab.1.right" timestamp="1588612027303">
+    <state width="1397" height="427" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588624834941" />
+    <state width="1397" height="427" key="GridCell.Tab.1.center" timestamp="1588624834940">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="266" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1588612027303" />
+    <state width="1397" height="427" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1588624834940" />
+    <state width="1397" height="427" key="GridCell.Tab.1.left" timestamp="1588624834940">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="427" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1588624834940" />
+    <state width="1397" height="427" key="GridCell.Tab.1.right" timestamp="1588624834940">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="427" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1588624834940" />
     <state width="1397" height="266" key="GridCell.Tab.2.bottom" timestamp="1588612027304">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -205,10 +215,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1397" height="266" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1588612027304" />
-    <state x="200" y="8" key="SettingsEditor" timestamp="1588610898325">
+    <state x="200" y="8" key="SettingsEditor" timestamp="1588622844128">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="200" y="8" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1588610898325" />
+    <state x="200" y="8" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1588622844128" />
+    <state x="428" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1588622819987">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="428" y="259" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1588622819987" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

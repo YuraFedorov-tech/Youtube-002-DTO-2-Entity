@@ -16,7 +16,4 @@ import java.util.List;
 
 public interface PersonRepositiry extends JpaRepository<Person, Long> {
     Person findPersonById(Long id);
-    Person findPersonByEmail(String email);
-
-
 }
