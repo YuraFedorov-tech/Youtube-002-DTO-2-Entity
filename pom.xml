@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <org.hibernate.hibernate-core.version>5.2.16.Final</org.hibernate.hibernate-core.version>
+        <org.hibernate.hibernate-core.version>5.4.24.Final</org.hibernate.hibernate-core.version>
         <java.version>1.8</java.version>
     </properties>
 
